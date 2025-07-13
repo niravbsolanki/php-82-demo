@@ -45,6 +45,13 @@ switch ($request) {
         call_controller('auth/LoginController', 'LoginController', 'logout');
         break;
 
+    case $prefix .'/category':
+        call_controller('CategoryController', 'CategoryController', 'index');
+        break;
+    case $prefix .'/category/list':
+        call_controller('CategoryController', 'CategoryController', 'datatableList');
+        break;
+
     default:
         http_response_code(404);
         echo "404 Page Not Found";

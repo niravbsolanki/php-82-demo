@@ -27,6 +27,7 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<?php renderblock('scripts'); ?>
 <!-- ChartJS -->
 <script src="assets/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -50,6 +51,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="assets/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="assets/dist/js/pages/dashboard.js"></script>
+<!-- <script src="assets/dist/js/pages/dashboard.js"></script> -->
+<!-- Page-Specific Scripts -->
+
 </body>
 </html>
